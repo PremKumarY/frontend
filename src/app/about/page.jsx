@@ -37,7 +37,7 @@ export default function About() {
             </h1><br />
             <p className="text-3xl md:text-xl font-extrabold bg-gradient-to-r from-red-300 to-pink-100 
                text-transparent bg-clip-text border-b-4 pb-2 inline-block">
-             Version 1.0 
+             Version 1.1
             </p>
 
             <p className="mt-4 text-sm text-gray-200 ">
