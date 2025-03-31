@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Debate Assistant",
+  title: "Debate Assistant | ClimaTalk",
   description: "Debate on Pollution",
 };
 
