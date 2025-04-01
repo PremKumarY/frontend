@@ -97,7 +97,7 @@ export default function Navbar() {
                 )}
               </div>
             ) : (
-              <Link href="/login" className="hidden md:flex  bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+              <Link href="/authpage" className="hidden md:flex  bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
                 Login
               </Link>
             )}
