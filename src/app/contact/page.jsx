@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Contact() {
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
@@ -54,6 +55,11 @@ export default function Contact() {
         >
           Send Message
         </button>
+        <div className="mt-4 text-center">
+          <Link href="/" className="text-gray-400 hover:underline">
+            Back to Home
+          </Link>
+          </div>
       </form>
     </div>
   );
