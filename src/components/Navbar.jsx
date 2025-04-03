@@ -115,7 +115,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-white dark:bg-gray-900 shadow-md">
+        <div  onClick={() => setIsOpen(!isOpen)} className="md:hidden bg-white dark:bg-gray-900 shadow-md">
           <Link href="/" className="block px-4 py-2 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700">Home</Link>
           <Link href="/about" className="block px-4 py-2 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700">About</Link>
           <Link href="/blog" className="block px-4 py-2 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700">Blog</Link>
@@ -127,7 +127,7 @@ export default function Navbar() {
               Logout
             </button>
           ) : (
-            <Link href="/login" className="block w-full px-4 py-2 bg-blue-600 text-white text-center hover:bg-blue-700">
+            <Link href="/authpage" className="block w-full px-4 py-2 bg-blue-600 text-white text-center hover:bg-blue-700">
               Login
             </Link>
           )}
