@@ -185,7 +185,7 @@ export async function GET(request) {
         "hello": "Hi there! How can I help you?",
         "how are you": "I'm just a bot, but I'm doing great!",
         "bye": "Goodbye! Have a great day!",
-        "Tumhara name kya h": "Mai Clima Talk AI hun,How can I help you? ",
+        " tumhara name kya hai": "Mai Clima Talk AI hun,How can I help you? ",
         "what is pollution": "Pollution is the introduction of harmful substances into the environment, negatively affecting air, water, and land.",
         "types of pollution": "The major types of pollution are air pollution, water pollution, soil pollution, noise pollution, and plastic pollution.",
         "causes of air pollution": "Air pollution is caused by vehicle emissions, industrial waste, burning fossil fuels, deforestation, and agricultural activities.",
@@ -248,7 +248,7 @@ export async function GET(request) {
 
         "what is your name": "I am an AI created by Prem Kumar Yadav. How can I assist you today?",
         "what can you do": "I can answer your questions, assist with tasks, and help you learn new things.",
-        "who created you": "I was created by Prem Kumar Yadav.",
+        "who created you": "I was created by ApanaTime Team.",
         "who developed you": "I was created by Prem Kumar Yadav.",
         "what is AI": "AI, or Artificial Intelligence, refers to the simulation of human intelligence processes by machines, particularly computer systems.",
         "what is your purpose": "My purpose is to assist with tasks, answer questions, and provide useful information.",
