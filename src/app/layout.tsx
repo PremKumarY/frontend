@@ -4,6 +4,8 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
+
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -31,7 +33,9 @@ export default function RootLayout({
       >
         <div className="bg-linear-to-b from-black to-blue-400 min-h-screen">
         <Navbar/>
+       
         {children}
+        
         <Footer/>
         </div>
       </body>

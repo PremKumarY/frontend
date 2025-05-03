@@ -10,15 +10,43 @@ export async function GET(request) {
     }
 
     const dataset = {
+
+
         "hello": "Hi there! How can I help you?",
-        "how are you": "I'm just a bot, but I'm doing great!",
+        "hi there": "Hello! How can I assist you today?",
+        "hi there!": "Hello! How can I assist you today?",
+        "hello!": "Hello! How can I assist you today?",
+        "hi!": "Hello! How can I assist you today?",
+        "hi": "Hello! How can I assist you today?",
+        "hey": "Hey! What can I do for you?",
+        "what's up": "Not much, just here to help you! What do you need?",
+        "how's it going": "I'm just a computer program, but I'm here to assist you! How can I help?",
+        "good morning": "Good morning! How can I assist you today?",
+        "good afternoon": "Good afternoon! How can I help you today?",
+        "good evening": "Good evening! How can I assist you today?",
+        "good night": "Good night! If you have any questions, feel free to ask.",
+        "thank you": "You're welcome! If you have any more questions, feel free to ask.",
+        "thanks": "You're welcome! If you need anything else, just let me know.",
         "bye": "Goodbye! Have a great day!",
-        " tumhara name kya hai": "Mai Clima Talk AI hun,How can I help you? ",
-        "what is pollution": "Pollution is the introduction of harmful substances into the environment, negatively affecting air, water, and land.",
-        "types of pollution": "The major types of pollution are air pollution, water pollution, soil pollution, noise pollution, and plastic pollution.",
-        "causes of air pollution": "Air pollution is caused by vehicle emissions, industrial waste, burning fossil fuels, deforestation, and agricultural activities.",
+        "see you later": "See you later! If you have more questions, just ask.",
+        "what is your purpose": "My purpose is to assist you with information and tasks. How can I help you today?",
+        "what can you do": "I can answer",
+        "how are you": "I'm just a computer program, but thanks for asking! How can I assist you today?",
+        "what is pollution": "Pollution is the introduction of harmful substances or contaminants into the environment, causing adverse effects.",
+        "what is your name": "I am an AI assistant created by Prem Kumar Yadav. How can I help you today?",
+        "who is prem kumar yadav": "Prem Kumar Yadav is a software engineer and the creator of this AI assistant. He is passionate about technology and helping others.",
+        "who is apana time": "Apana Time is a platform created by Prem Kumar Yadav, focusing on technology and innovation.",
+        "who is yadav": " Yadav is powerfull brand up and vihar .Namaste Yadav ji",
+        "who is akhilesh yadav": "Akhilesh Yadav is an Indian politician and the national president of the Samajwadi Party. He served as the Chief Minister of Uttar Pradesh from 2012 to 2017, becoming the youngest person to hold the office at the age of 38. He is currently a Member of Parliament for Kannauj in the 18th Lok Sabha and leads the Samajwadi Party in the Lok Sabha",
         "effects of air pollution": "It leads to respiratory diseases, climate change, acid rain, and harm to wildlife and vegetation.",
         "how to reduce air pollution": "Use public transport, switch to renewable energy, plant trees, and enforce stricter emission laws.",
+        "what is water pollution": "Water pollution is the contamination of water bodies with harmful substances, affecting aquatic life and human health.",
+        "causes of water pollution": "Industrial waste, agricultural runoff, sewage discharge, and plastic waste are major causes of water pollution.",
+        "effects of water pollution": "It leads to health issues, loss of biodiversity, and disruption of ecosystems.",
+        "how to reduce water pollution": "Reduce plastic use, treat wastewater, and avoid using harmful chemicals in agriculture.",
+        "what is soil pollution": "Soil pollution is the contamination of soil with harmful chemicals, affecting plant growth and food safety.",
+        "causes of soil pollution": "Excessive use of pesticides, industrial waste disposal, and plastic waste contribute to soil pollution.",
+        "effects of soil pollution": "It leads to reduced soil fertility, contamination of food crops, and harm to wildlife.",
         "why is water pollution a problem": "Water pollution harms marine life, contaminates drinking water, spreads diseases, and disrupts ecosystems.",
         "how can we prevent water pollution": "Reduce plastic use, dispose of waste properly, use eco-friendly products, and treat industrial waste before disposal.",
         "what is global warming": "Global warming is the rise in Earth's average temperature due to increased greenhouse gas emissions.",
@@ -29,6 +57,10 @@ export async function GET(request) {
         "is climate change real": "Yes, scientific evidence shows rising temperatures, melting ice caps, and extreme weather events caused by human activity.",
         "what is carbon footprint": "A carbon footprint is the total amount of greenhouse gases emitted by human activities, usually measured in CO2 equivalents.",
         "how to reduce carbon footprint": "Use energy-efficient appliances, drive less, eat sustainably, and switch to renewable energy.",
+        "what is noise pollution": "Noise pollution is excessive or harmful levels of noise in the environment, affecting human health and wildlife.",
+        "causes of noise pollution": "Traffic, construction, industrial activities, and loud music are major causes of noise pollution.",
+        "effects of noise pollution": "It can cause stress, sleep disturbances, hearing loss, and negative impacts on wildlife behavior.",
+        "how to reduce noise pollution": "Use soundproofing materials, plant trees, enforce noise regulations, and promote quieter technologies.",
         "what is noise pollution": "Noise pollution refers to harmful or disturbing sounds that affect the health and well-being of humans and wildlife.",
         "how to reduce noise pollution": "Limit vehicle traffic, use soundproofing materials, enforce noise regulations, and promote green spaces in urban areas.",
         "what are the effects of soil pollution": "Soil pollution degrades soil quality, harms plant life, and can contaminate food crops with harmful chemicals.",
@@ -73,7 +105,6 @@ export async function GET(request) {
         "how does waste management reduce pollution": "Proper waste management reduces the amount of waste in landfills, prevents pollution of air and water, and promotes recycling.",
         "what is the importance of clean energy": "Clean energy reduces greenhouse gas emissions, minimizes pollution, and contributes to a sustainable future.",
         "what is the role of education in reducing pollution": "Education can raise awareness about the causes and consequences of pollution, encouraging more sustainable practices.",
-
         "what is your name": "I am an AI created by Prem Kumar Yadav. How can I assist you today?",
         "what can you do": "I can answer your questions, assist with tasks, and help you learn new things.",
         "who created you": "I was created by ApanaTime Team.",
@@ -130,6 +161,48 @@ export async function GET(request) {
         "do you love": "I cannot experience love or any other human emotions, as I'm just a program designed to help you.",
         "are you real": "I am a virtual assistant, created by Prem, to assist with tasks and provide information.",
         "can you think like a human": "I can process and analyze data to answer your questions, but I don't think like a human. My responses are based on programming and algorithms.",
+        "Pollution kya hota hai": "Pollution is the presence or introduction of harmful substances into the environment, causing adverse effects.",
+        "Noise pollution kis wajah se hota hai": "Noise pollution is produced by traffic, construction, and industrial machinery.",
+        "Dilli me smog kyu hota hai": "Burning of crop residues is a major contributor to seasonal smog in northern India.",
+        "Water pollution ke main karan kya hain": "Water pollution is caused by industrial waste, oil spills, and sewage disposal into water bodies.",
+        "Air pollution se health par kya effect padta hai": "Air pollution can cause asthma, respiratory infections, and cardiovascular problems.",
+        "Soil pollution kyu hota hai": "Soil pollution occurs due to excessive pesticide use, industrial dumping, and plastic waste.",
+        "AQI kya hota hai": "The Air Quality Index (AQI) measures the level of air pollution.",
+        "Deforestation se air pollution ka kya relation hai": "Deforestation leads to increased carbon dioxide levels and worsens air quality.",
+        "Plastic pollution ka kya nuksaan hota hai": "Plastic pollution threatens marine life and causes long-term environmental damage.",
+        "Ganga nadi itni polluted kyu hai": "The Ganges River is severely polluted due to untreated industrial and domestic waste.",
+        "Kya pollution se climate change hota hai": "Yes, pollution contributes to climate change by increasing greenhouse gas emissions.",
+        "Kya pollution se health problems hoti hain": "Yes, pollution can cause various health issues, including respiratory diseases and allergies.",
+        "Kya pollution ka koi solution hai": "Yes, solutions include reducing emissions, using renewable energy, and promoting recycling.",
+        "Kya pollution se wildlife par effect padta hai": "Yes, pollution can harm wildlife by contaminating habitats and food sources.",
+        "Kya pollution se global warming hota hai": "Yes, pollution contributes to global warming by increasing greenhouse gas concentrations in the atmosphere.",
+        "Kya pollution se biodiversity khatam hoti hai": "Yes, pollution can lead to habitat destruction and loss of biodiversity.",
+        "Kya pollution se water scarcity hoti hai": "Yes, pollution can contaminate water sources, leading to scarcity of clean water.",
+        "Kya pollution se soil fertility khatam hoti hai": "Yes, pollution can degrade soil quality and reduce its fertility.",
+        "Kya pollution se health problems hoti hain": "Yes, pollution can cause various health issues, including respiratory diseases and allergies.",
+        "Kya pollution ka koi solution hai": "Yes, solutions include reducing emissions, using renewable energy, and promoting recycling.",
+        "Kya pollution se wildlife par effect padta hai": "Yes, pollution can harm wildlife by contaminating habitats and food sources.",
+        "Kya pollution se global warming hota hai": "Yes, pollution contributes to global warming by increasing greenhouse gas concentrations in the atmosphere.",
+        "Kya pollution se biodiversity khatam hoti hai": "Yes, pollution can lead to habitat destruction and loss of biodiversity.",
+        "Kya pollution se water scarcity hoti hai": "Yes, pollution can contaminate water sources, leading to scarcity of clean water.",
+        "Kya pollution se soil fertility khatam hoti hai": "Yes, pollution can degrade soil quality and reduce its fertility.",
+        "Kya pollution se health problems hoti hain": "Yes, pollution can cause various health issues, including respiratory diseases and allergies.",
+        "Kya pollution ka koi solution hai": "Yes, solutions include reducing emissions, using renewable energy, and promoting recycling.",
+        "Kya pollution se wildlife par effect padta hai": "Yes, pollution can harm wildlife by contaminating habitats and food sources.",
+        "Kya pollution se global warming hota hai": "Yes, pollution contributes to global warming by increasing greenhouse gas concentrations in the atmosphere.",
+        "Kya pollution se biodiversity khatam hoti hai": "Yes, pollution can lead to habitat destruction and loss of biodiversity.",
+        "Kya pollution se water scarcity hoti hai": "Yes, pollution can contaminate water sources, leading to scarcity of clean water.",
+        "Kya pollution se soil fertility khatam hoti hai": "Yes, pollution can degrade soil quality and reduce its fertility.",
+        "Kya pollution se health problems hoti hain": "Yes, pollution can cause various health issues, including respiratory diseases and allergies.",
+        "Kya pollution ka koi solution hai": "Yes, solutions include reducing emissions, using renewable energy, and promoting recycling.",
+        "Kya pollution se wildlife par effect padta hai": "Yes, pollution can harm wildlife by contaminating habitats and food sources.",
+        "Kya pollution se global warming hota hai": "Yes, pollution contributes to global warming by increasing greenhouse gas concentrations in the atmosphere.",
+        "Kya pollution se biodiversity khatam hoti hai": "Yes, pollution can lead to habitat destruction and loss of biodiversity.",
+        "Kya pollution se water scarcity hoti hai": "Yes, pollution can contaminate water sources, leading to scarcity of clean water.",
+        "Kya pollution se soil fertility khatam hoti hai": "Yes, pollution can degrade soil quality and reduce its fertility.",
+        "Kya pollution se health problems hoti hain": "Yes, pollution can cause various health issues, including respiratory diseases and allergies.",
+        "Kya pollution ka koi solution hai": "Yes, solutions include reducing emissions, using renewable energy, and promoting recycling.",
+        "Kya pollution se wildlife par effect padta hai": "Yes, pollution can harm wildlife by contaminating habitats and food sources.",
     };
 
     const answer = dataset[query] || null;
@@ -139,22 +212,14 @@ export async function GET(request) {
         });
     }
 
-    // If the question is not found, call OpenAI API
+    // If the question is not found, call  API
     try {
-        const response = await fetch("https://api.openai.com/v1/chat/completions", {
+        const response = await fetch("http://localhost:8000/api/debate", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
-                "Authorization": `Bearer ${process.env.OPENAI_API_KEY}`,
             },
-            body: JSON.stringify({
-                model: "gpt-3.5-turbo",
-                messages: [
-                    { role: "system", content: "You are an AI assistant specialized in pollution-related topics." },
-                    { role: "user", content: query }
-                ],
-                max_tokens: 100,
-            }),
+            body: JSON.stringify({ query }), // send the user query
         });
 
         if (!response.ok) {
@@ -163,17 +228,17 @@ export async function GET(request) {
 
         const apiData = await response.json();
 
-        console.log("OpenAI API Response:", apiData);
+        console.log("FastAPI Response:", apiData);
 
-        const generatedAnswer = apiData.choices?.[0]?.message?.content.trim() || "Sorry, I couldn't understand your question.";
+        const generatedAnswer = apiData.answer || "Sorry, I couldn't understand your question.";
 
         return new Response(JSON.stringify({ answer: generatedAnswer }), {
             headers: { "Content-Type": "application/json" },
         });
 
     } catch (error) {
-        console.error("Error fetching from OpenAI:", error);
-        return new Response(JSON.stringify({ error: "Failed to fetch response from AI." }), {
+        console.error("Error fetching from FastAPI:", error);
+        return new Response(JSON.stringify({ error: "Failed to fetch response from local AI." }), {
             headers: { "Content-Type": "application/json" },
         });
     }
