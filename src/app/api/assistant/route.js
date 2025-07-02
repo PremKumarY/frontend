@@ -10,8 +10,30 @@ export async function GET(request) {
     }
 
     const dataset = {
-
-
+        "how does air pollution affect children": "According to WHO, air pollution exposure in children is linked to asthma, developmental issues, and respiratory infections.",
+        "how does air pollution affect": "Elderly individuals are more susceptible to respiratory diseases, cardiovascular issues, and cognitive decline due to air pollution.",
+        "is it safe to drink tap water in industrial areas": "According to the CDC and WHO, tap water in heavily industrial areas often contains contaminants like lead, arsenic, and heavy metals, which pose long-term health risks.",
+        "is tap water safe to drink in industrial towns": "according to the cdc and who, tap water in industrial areas can contain harmful substances like lead, arsenic, and heavy metals due to aging infrastructure and industrial runoff",
+        "how air pollution from factories affects local communities": "according to the who, factory emissions release particulate matter and toxic gases that can cause respiratory diseases, heart conditions, and reduce life expectancy",
+        "does living near a chemical plant harm children's health": "studies from the american lung association show that children living near industrial zones are at higher risk for asthma, developmental issues, and long-term lung damage",
+        "how factory emissions impact the quality of rainwater": "according to the noaa, emissions of sulfur dioxide and nitrogen oxides from factories lead to acid rain, which lowers the pH of rainwater and harms ecosystems",
+        "can industrial waste pollute underground water": "according to the epa, poorly managed industrial waste can seep into the soil and contaminate groundwater with chemicals like benzene, mercury, and nitrates",
+        "are rivers near factories safe for fishing or bathing": "the epa reports that rivers near industrial zones often carry chemical residues, heavy metals, and pathogens, making them unsafe for recreational use and fishing",
+        "how industrial air affects people with asthma": "according to the who, pollutants like sulfur dioxide, nitrogen dioxide, and fine particulate matter from factories can trigger asthma attacks and worsen chronic symptoms",
+        "do factories contribute to acid rain in nearby areas": "the ipcc states that emissions from industrial processes are a major source of acid rain, which damages soil, aquatic life, and buildings",
+        "how polluted water from industries affects farming": "the fao warns that using contaminated water for irrigation can lead to toxic buildup in soil and crops, reducing yield and harming human health",
+        "can breathing industrial smoke cause long-term illness": "according to the national cancer institute, long-term exposure to industrial air pollutants such as formaldehyde and asbestos increases the risk of cancer and chronic respiratory diseases",
+        "what is air pollution": "air pollution is the presence of harmful gases or particles in the air that can affect health and the environment",
+        "what causes water pollution in industrial areas": "factories often release waste into rivers and lakes, which pollutes the water",
+        "why is clean air important for health": "clean air helps people breathe properly and reduces the risk of diseases like asthma",
+        "how do factories pollute the air": "factories release smoke and harmful gases like carbon monoxide and sulfur dioxide",
+        "can dirty water make people sick": "yes, polluted water can cause diseases like diarrhea, cholera, and skin infections",
+        "how does pollution affect animals": "pollution can harm animals by contaminating their food and water sources",
+        "what are some signs of polluted water": "bad smell, unusual color, and presence of garbage or oil on the surface",
+        "how can we reduce air pollution near factories": "using filters, reducing emissions, and planting trees can help",
+        "what is the role of rain in spreading pollution": "rain can carry air pollutants to the ground and into water sources, causing acid rain",
+        "why should we care about pollution in industrial areas": "because it affects the health of people, animals, and the environment around them",
+        "what is the full form of ipcc": "IPCC is the Intergovernmental Panel on Climate Change. It's a United Nations body established to provide policymakers with scientific assessments of climate change.",
         "hello": "Hi there! How can I help you?",
         "hi there": "Hello! How can I assist you today?",
         "hi there!": "Hello! How can I assist you today?",
